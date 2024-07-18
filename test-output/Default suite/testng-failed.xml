@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.jasmine.tests.LoginTest">
+        <methods>
+          <include name="report"/>
+          <include name="CloseBrowser"/>
+          <include name="startBrowser"/>
+          <include name="loginToShop"/>
+          <include name="OpenURL"/>
+        </methods>
+      </class> <!-- com.jasmine.tests.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
